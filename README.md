@@ -12,6 +12,7 @@ O projeto está estruturado da seguinte forma:
 
 - **index.html**: Arquivo HTML principal que contém a estrutura do formulário.
 - **css**: Diretório que contém os arquivos de estilo CSS para o formulário.
+- **js**: Diretório que contém os arquivos JavaScript para adicionar interatividade ao formulário.
 
 ## Funcionalidades
 
@@ -24,6 +25,10 @@ O formulário inclui campos para os seguintes dados:
 
 Além disso, inclui um botão de envio para submeter os dados.
 
+## JavaScript
+
+O JavaScript neste projeto é responsável por adicionar interatividade ao formulário. Ele valida os campos em tempo real, exibindo mensagens de erro se os campos estiverem vazios e alterando a cor da borda dos campos conforme a validação.
+
 ## Uso
 
 1. Clone este repositório em sua máquina local.
@@ -31,7 +36,7 @@ Além disso, inclui um botão de envio para submeter os dados.
 
 ## Contribuição
 
-Contribuições são bem-vindas! Se você quiser adicionar mais campos ao formulário, melhorar o design ou adicionar validações de entrada, sinta-se à vontade para abrir uma issue ou enviar um pull request.
+Contribuições são bem-vindas! Se você quiser adicionar mais campos ao formulário, melhorar o design ou adicionar funcionalidades adicionais, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
 ## Autor
 
