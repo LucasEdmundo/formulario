@@ -24,18 +24,23 @@
                 entraremos em contato em menos de 24h.
             </p>
         </div>
-        <div class="formulario">
-            <input class="nome" type="text" value="Nome completo *">
-            <input class="email" type="email" value="Email *">
-            <input class="telefone" type="text" value="Telefone *">
-            <input class="mensagem" type="text" value="Mensagem *">
-
-            <p><strong>*Campos obrigatorios</strong></p>
-
-            <button class="btn" type="button">Enviar</button>
-
+        <div class="formulario ">
+            <input class="campos" type="text" placeholder= " Nome completo *" id="nome">
+            <span class="oculto ">campo obrigatorio</span>
+            <input class="campos" type="text" placeholder=" Email *" id="email">
+            <span class="oculto ">campo obrigatorio</span>
+            <input class="campos" type="text" placeholder=" Telefone *" id="telefone">
+            <span class="oculto ">campo obrigatorio</span>
+            <input class="campos" type="text" placeholder=" Mensagem *" id ="mensagem"> 
+            <span class="oculto ">campo obrigatorio</span>
+             
+            <p class="campo-obr">*campos obrigatórios</p>
+            
+            <button class="btn" type="button" id="button">Enviar</button>
         </div>
+        
     </main>
+    <script src="./src/js/index.js"></script>
 </body>
 
 </html>
